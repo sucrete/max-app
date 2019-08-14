@@ -1,10 +1,10 @@
-## Portfolio Website for Max Rosen, Director, Editor, Something Else ![#1589F0](https://placehold.it/15/1589F0/000000?text=+)
+## Portfolio Website for Max Rosen, Director, Editor, Something Else
 
 ```diff
 - text in red
 + text in green
 ! text in orange
-# text in gray
+! text in gray
 ```
 
 Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
