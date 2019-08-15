@@ -7,10 +7,18 @@ class Navigator extends Component {
       <nav className="maxNav">
         <img src={rawr} className="rawr" alt="dinosaurLogo" />
         <ul className="navItemsContainer">
-          <li className="navItem">About</li>
-          <li className="navItem">Work</li>
-          <li className="navItem">Awards</li>
-          <li className="navItem">Contact</li>
+          <li className="navItem">
+            <a>About</a>
+          </li>
+          <li className="navItem">
+            <a>Work</a>
+          </li>
+          <li className="navItem">
+            <a>Awards</a>
+          </li>
+          <li className="navItem">
+            <a>Contact</a>
+          </li>
         </ul>
       </nav>
     );
