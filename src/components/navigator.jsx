@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import rawr from "../assets/rawr.gif";
+import rawr from "../rawr.gif";
 
 class Navigator extends Component {
   render() {
     return (
       <nav className="maxNav">
-        <img src={rawr} alt="logo" />
-        <ul>
+        <img src={rawr} className="rawr" alt="dinosaurLogo" />
+        <ul className="navItemsContainer">
           <li className="navItem">About</li>
           <li className="navItem">Work</li>
           <li className="navItem">Awards</li>
