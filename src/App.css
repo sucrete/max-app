@@ -9,9 +9,16 @@
   font-size: 2.5vw;
   cursor: pointer;
 }
+.maxSpacer {
+  height: 60vh;
+}
 .navItemsContainer {
   position: relative;
-  top: 30vw;
+  padding-inline-start: 20px;
+}
+.navItemsContainerFixed {
+  position: fixed;
+  padding-inline-start: 20px;
 }
 .maxHeader {
   font-size: 15vw;
@@ -32,9 +39,7 @@
   flex: 4;
   background-color: lightgoldenrodyellow;
 }
-.navItemsContainer {
-  padding-inline-start: 20px;
-}
+
 li {
   list-style-type: none;
 }
