@@ -2,7 +2,7 @@
   "name": "max-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sucrete.github.io/max-app/",
+  "homepage": "https://sucrete.github.io/max-app",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.8.6",
@@ -11,12 +11,12 @@
     "typescript": "^3.5.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
