@@ -2,7 +2,7 @@
   "name": "max-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sucrete.github.io/max-app",
+  "homepage": "https://sucrete.github.io/max-app/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.8.6",
