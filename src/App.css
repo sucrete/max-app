@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
+
+.maxContent {
+  font-family: "Acme", sans-serif;
+  letter-spacing: 0.05em;
+}
 .maxAppContainer {
   height: 100%;
   display: flex;
@@ -13,22 +19,25 @@
   height: 60vh;
 }
 .navItemsContainer {
-  padding-top: 3vh;
+  padding-top: 1.5vw;
   margin-top: 0 !important;
   position: relative;
-  padding-inline-start: 20px;
+  padding-inline-start: 2vw;
 }
 .navItemsContainerFixed {
-  padding-top: 3vh;
+  padding-top: 1.5vw;
   margin-top: 0 !important;
   position: fixed;
-  padding-inline-start: 20px;
+  padding-inline-start: 2vw;
 }
 .maxHeader {
-  font-size: 15vw;
+  font-family: "Acme";
+  color: #1c1b1a;
+  font-size: 17vw;
   text-align: left;
-  line-height: 90%;
+  line-height: 85%;
   margin-bottom: 10vw;
+  letter-spacing: 0.04em;
 }
 .maxNav {
   display: flex;
