@@ -1,3 +1,5 @@
-Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Demo site here 👉 https://sucrete.github.io/max-app/
 
-Demo Max's Portfolio here 👉 https://sucrete.github.io/max-app/
+```diff
+Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
