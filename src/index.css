@@ -1,4 +1,5 @@
 body {
+  background-color: #fef7ec;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -8,7 +9,9 @@ body {
   font-size: 1.2em;
   -moz-osx-font-smoothing: grayscale;
 }
-
+html {
+  background-color: #fef7ec;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

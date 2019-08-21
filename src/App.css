@@ -1,7 +1,7 @@
 .maxAppContainer {
   height: 100%;
   display: flex;
-  background-color: aquamarine;
+  background-color: #fef7ec;
   justify-content: space-between;
   align-items: stretch;
 }
@@ -13,10 +13,14 @@
   height: 60vh;
 }
 .navItemsContainer {
+  padding-top: 3vh;
+  margin-top: 0 !important;
   position: relative;
   padding-inline-start: 20px;
 }
 .navItemsContainerFixed {
+  padding-top: 3vh;
+  margin-top: 0 !important;
   position: fixed;
   padding-inline-start: 20px;
 }
@@ -37,7 +41,7 @@
   padding-bottom: 10vw;
   padding-top: 20px;
   flex: 4;
-  background-color: lightgoldenrodyellow;
+  background-color: #fef7ec;
 }
 
 li {
