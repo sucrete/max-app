@@ -4,7 +4,7 @@ class Content extends Component {
   render() {
     return (
       <div className="maxContent">
-        <section className="About">
+        <section id="section1" className="About">
           <h2>About</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
@@ -28,7 +28,7 @@ class Content extends Component {
             porta velit. Phasellus dignissim ante non rhoncus finibus.
           </p>
         </section>
-        <section className="Work">
+        <section id="section2" className="Work">
           <h2>Work</h2>
           <p>
             Nullam nunc tortor, pharetra sed egestas non, blandit sed ligula.
@@ -39,7 +39,7 @@ class Content extends Component {
             rhoncus, vitae ornare urna blandit.
           </p>
         </section>
-        <section className="Awards">
+        <section id="section3" className="Awards">
           <h2>Awards</h2>
           <p>
             Nulla nec mi velit. In nulla turpis, gravida quis ipsum et, gravida
@@ -58,7 +58,7 @@ class Content extends Component {
             conubia nostra, per inceptos himenaeos.
           </p>
         </section>
-        <section className="Contact">
+        <section id="section4" className="Contact">
           <h2>Contact</h2>
           <p>
             Aenean vestibulum elit in posuere placerat. Nulla ut fermentum sem,
