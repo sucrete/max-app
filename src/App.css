@@ -19,13 +19,12 @@ div.maxAppContainer {
   cursor: pointer;
 }
 .maxSpacer {
-  height: 60vh;
+  height: 70vh;
 }
 .navItemsContainer {
   width: inherit;
-  padding-top: 1.5vw;
   margin-top: 0 !important;
-  top: 2vw;
+  top: 1.5vw;
   position: sticky;
   padding-inline-start: 2vw;
 }
