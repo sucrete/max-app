@@ -18,6 +18,29 @@ div.maxAppContainer {
   font-size: 2.5vw;
   cursor: pointer;
 }
+.navItem a {
+  text-decoration: none;
+  color: #1d190e;
+  position: relative;
+}
+.navItem a::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  border-bottom: solid 3px rgba(186, 95, 35, 0.6);
+  bottom: 0px;
+  width: 0%;
+  left: 0%;
+  margin: 0 auto;
+  transition-timing-function: ease-out;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.navItem a:hover::before {
+  border-bottom: solid 3px #1d190e;
+  width: 100%;
+  left: 0%;
+}
 .maxSpacer {
   height: 70vh;
 }
@@ -29,7 +52,6 @@ div.maxAppContainer {
   position: sticky;
   padding-inline-start: 2vw;
 }
-
 .maxHeader {
   font-family: sans-serif;
   color: #1d190e;
@@ -41,12 +63,14 @@ div.maxAppContainer {
   letter-spacing: 0.04em;
 }
 .maxNav {
+  color: #1d190e;
   /* width: 20vw; */
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 .maxMain {
+  color: #1d190e;
   padding-left: 3vw;
   padding-right: 5vw;
   padding-bottom: 10vw;
