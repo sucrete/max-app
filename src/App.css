@@ -7,7 +7,7 @@
   letter-spacing: 0.05em;
 }
 div.maxAppContainer {
-  width: 98vw !important;
+  width: 100vw !important;
   height: 100%;
   display: flex !important;
   background-color: #fef7ec;
@@ -28,13 +28,7 @@ div.maxAppContainer {
   position: sticky;
   padding-inline-start: 2vw;
 }
-.navItemsContainer.navFixed {
-  padding-top: 1.5vw;
-  width: inherit;
-  margin-top: 0 !important;
-  position: fixed;
-  padding-inline-start: 2vw;
-}
+
 .maxHeader {
   font-family: sans-serif;
   color: #1c1b1a;
@@ -47,7 +41,7 @@ div.maxAppContainer {
 }
 .maxNav {
   /* width: 20vw; */
-  display: flex !important;
+  display: flex;
   flex-direction: column;
   flex: 1;
 }
@@ -70,4 +64,18 @@ li {
   padding: 20px;
   height: 33px;
   width: 41px;
+}
+@media screen and (max-width: 700px) {
+  .maxNav {
+    display: none;
+  }
+  .maxMain {
+    padding-top: 6vw;
+    padding-left: 6vw;
+    flex: unset;
+  }
+  .maxHeader {
+    font-size: 20vw;
+    padding-bottom: 20vw;
+  }
 }
