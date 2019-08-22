@@ -6,7 +6,9 @@ class Header extends Component {
       <header className="maxHeader">
         MAX ROSEN{"\n"}
         <span className="maxEditor">editor</span>
+        {"\n"}
         <span className="maxDirector">DIRECTOR</span>
+        {"\n"}
       </header>
     );
   }

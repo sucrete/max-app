@@ -1,15 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
 
 .maxContent {
-  font-family: "Acme", sans-serif;
+  flex-wrap: wrap;
+  width: inherit;
+  font-family: sans-serif;
   letter-spacing: 0.05em;
 }
-.maxAppContainer {
+div.maxAppContainer {
+  width: 98vw !important;
   height: 100%;
-  display: flex;
+  display: flex !important;
   background-color: #fef7ec;
   justify-content: space-between;
-  align-items: stretch;
+  /* align-items: stretch; */
 }
 .navItem {
   font-size: 2.5vw;
@@ -19,28 +22,33 @@
   height: 60vh;
 }
 .navItemsContainer {
+  width: inherit;
   padding-top: 1.5vw;
   margin-top: 0 !important;
-  position: relative;
+  top: 2vw;
+  position: sticky;
   padding-inline-start: 2vw;
 }
-.navItemsContainerFixed {
+.navItemsContainer.navFixed {
   padding-top: 1.5vw;
+  width: inherit;
   margin-top: 0 !important;
   position: fixed;
   padding-inline-start: 2vw;
 }
 .maxHeader {
-  font-family: "Acme";
+  font-family: sans-serif;
   color: #1c1b1a;
-  font-size: 17vw;
+  font-size: 15vw;
+  word-break: break-all;
   text-align: left;
   line-height: 85%;
   margin-bottom: 10vw;
   letter-spacing: 0.04em;
 }
 .maxNav {
-  display: flex;
+  /* width: 20vw; */
+  display: flex !important;
   flex-direction: column;
   flex: 1;
 }
@@ -49,7 +57,7 @@
   padding-right: 5vw;
   padding-bottom: 10vw;
   padding-top: 20px;
-  flex: 4;
+  flex: 4 !important;
   background-color: #fef7ec;
 }
 
