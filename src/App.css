@@ -25,13 +25,14 @@ div.maxAppContainer {
   width: inherit;
   margin-top: 0 !important;
   top: 1.5vw;
+  position: -webkit-sticky;
   position: sticky;
   padding-inline-start: 2vw;
 }
 
 .maxHeader {
   font-family: sans-serif;
-  color: #1c1b1a;
+  color: #1a1c20;
   font-size: 15vw;
   word-break: break-all;
   text-align: left;
