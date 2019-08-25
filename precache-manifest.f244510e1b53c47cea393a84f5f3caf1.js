@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb7adde351b572d0dd926314b11d1f18",
+    "revision": "7de4ef8194c8d76a4fdaee91604e4309",
     "url": "/max-app/index.html"
   },
   {
