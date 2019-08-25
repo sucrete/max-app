@@ -5,14 +5,12 @@ import rawr from "../rawr.gif";
 class Navigator extends Component {
   constructor(props) {
     super(props);
-    this.state = { offset: -18, duration: 400 };
+    this.state = { offset: -25, duration: 400 };
   }
 
   render() {
     return (
       <nav className="maxNav">
-        <img src={rawr} className="rawr" alt="dinosaurLogo" />
-        <div className="maxSpacer" />
         <ul className="navItemsContainer">
           <li className="navItem">
             <Link

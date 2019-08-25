@@ -5,31 +5,18 @@ class Content extends Component {
     return (
       <div className="maxContent">
         <section id="section1" className="About">
-          <h2>About</h2>
+          <span>About</span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            fringilla vel lectus non porta. Nulla laoreet sapien nec sem rhoncus
-            rhoncus. Donec elementum vel odio quis cursus. Nam vitae est justo.
-            Aenean aliquam, massa et accumsan pulvinar, sem magna iaculis purus,
-            a ultrices purus ante sed sapien. Suspendisse consequat diam sed mi
-            vestibulum aliquet. Nullam eget mauris eget magna mollis interdum
-            non quis ipsum. Proin quis neque turpis. Duis sagittis, lorem
-            elementum euismod consequat, mi est viverra est, eget congue lacus
-            mauris et odio. Suspendisse potenti. Nunc varius malesuada metus,
-            nec molestie nisl bibendum interdum. Mauris at velit sed est
-            scelerisque ultrices sed vitae libero. Nullam ornare sollicitudin
-            urna quis aliquam. Cras augue magna, pretium ac rhoncus at, varius
-            ut diam. Vivamus ac augue mattis, posuere elit vitae, tincidunt
-            risus. Nullam porta tellus id metus ultrices tincidunt. Phasellus
-            hendrerit vel urna scelerisque volutpat. Praesent vitae vehicula
-            sem. Suspendisse lacus lacus, elementum in fringilla at, fermentum
-            eget massa. Nam feugiat aliquam magna. Quisque eu arcu in risus
-            aliquet imperdiet. Ut lacus nisi, dignissim a est et, fermentum
-            porta velit. Phasellus dignissim ante non rhoncus finibus.
+            O my friend -- but it is too much for my strength -- I sink under
+            the weight of the splendour of these visions! A wonderful serenity
+            has taken possession of my entire soul, like these sweet mornings of
+            spring which I enjoy with my whole heart. I am alone, and feel the
+            charm of existence in this spot, which was created for the bliss of
+            souls like mine.
           </p>
         </section>
         <section id="section2" className="Work">
-          <h2>Work</h2>
+          <span>Work</span>
           <p>
             Nullam nunc tortor, pharetra sed egestas non, blandit sed ligula.
             Curabitur a tortor et mi fringilla laoreet. Nulla facilisi. Mauris a
@@ -40,26 +27,29 @@ class Content extends Component {
           </p>
         </section>
         <section id="section3" className="Awards">
-          <h2>Awards</h2>
+          <span>Awards</span>
           <p>
-            Nulla nec mi velit. In nulla turpis, gravida quis ipsum et, gravida
-            porttitor nisi. Mauris facilisis sed quam sed lacinia. Sed sem nibh,
-            egestas non consequat luctus, elementum vitae neque. Praesent
-            bibendum ipsum ac est elementum vulputate. Suspendisse potenti.
-            Phasellus consequat nulla vitae massa commodo, eget fermentum felis
-            faucibus. Etiam sollicitudin, enim non mollis porta, eros ante
-            semper tortor, a euismod lacus sapien euismod velit. Nullam quis
-            elit id est vulputate auctor non id arcu. Sed rutrum ipsum ligula,
-            vel ultricies eros blandit sed. Mauris lacus nibh, condimentum vitae
-            purus volutpat, maximus ultrices nulla. Suspendisse erat libero,
-            imperdiet id eros vel, fermentum interdum eros. Mauris accumsan,
-            urna a interdum imperdiet, erat nisl porttitor massa, eu semper nisi
-            erat vel quam. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos.
+            When, while the lovely valley teems with vapour around me, and the
+            meridian sun strikes the upper surface of the impenetrable foliage
+            of my trees, and but a few stray gleams steal into the inner
+            sanctuary, I throw myself down among the tall grass by the trickling
+            stream; and, as I lie close to the earth, a thousand unknown plants
+            are noticed by me: when I hear the buzz of the little world among
+            the stalks, and grow familiar with the countless indescribable forms
+            of the insects and flies, then I feel the presence of the Almighty,
+            who formed us in his own image, and the breath of that universal
+            love which bears and sustains us, as it floats around us in an
+            eternity of bliss; and then, my friend, when darkness overspreads my
+            eyes, and heaven and earth seem to dwell in my soul and absorb its
+            power, like the form of a beloved mistress, then I often think with
+            longing, Oh, would I could describe these conceptions, could impress
+            upon paper all that is living so full and warm within me, that it
+            might be the mirror of my soul, as my soul is the mirror of the
+            infinite God!
           </p>
         </section>
         <section id="section4" className="Contact">
-          <h2>Contact</h2>
+          <span>Contact</span>
           <p>
             Aenean vestibulum elit in posuere placerat. Nulla ut fermentum sem,
             ut tempus libero. Nullam tristique massa eu ex maximus, ac lobortis

@@ -12,6 +12,17 @@ function App() {
         <main className="maxMain">
           <Header />
           <Content />
+          <footer id="willandree">
+            <span>created for</span>
+            <span> the web by </span>
+            <a
+              id="willLink"
+              href="https://www.linkedin.com/in/william-andree/"
+              target="_blank"
+            >
+              Will Andrée
+            </a>
+          </footer>
         </main>
       </div>
     </div>

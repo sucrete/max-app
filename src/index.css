@@ -8,6 +8,10 @@ body {
   font-weight: 600;
   font-size: 1.2em;
   -moz-osx-font-smoothing: grayscale;
+  text-shadow: none;
+}
+body::after {
+  text-shadow: none;
 }
 html {
   background-color: #fef7ec;

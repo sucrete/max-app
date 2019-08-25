@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Assistant|Fira+Mono|Libre+Caslon+Display|Pragati+Narrow:700|Roboto|Space+Mono|Work+Sans|Yatra+One&display=swap");
 
 .maxContent {
   flex-wrap: wrap;
@@ -6,16 +6,29 @@
   font-family: sans-serif;
   letter-spacing: 0.05em;
 }
+section p {
+  padding-bottom: 3vw;
+  padding-right: 7vw;
+  font-family: "Assistant";
+  font-weight: 500 !important;
+  font-size: 1.3em;
+  line-height: 125%;
+}
+
+section span {
+  font-size: 1.7em;
+}
+
 div.maxAppContainer {
   width: 100vw !important;
   height: 100%;
   display: flex !important;
   background-color: #fef7ec;
   justify-content: space-between;
-  /* align-items: stretch; */
 }
 .navItem {
   font-size: 2.5vw;
+  letter-spacing: 0.05em;
   cursor: pointer;
 }
 .navItem a {
@@ -28,8 +41,7 @@ div.maxAppContainer {
   display: block;
   position: absolute;
   height: 3px;
-  background-color: rgba(186, 95, 35, 0.8);
-  /* border-bottom: solid 3px rgba(186, 95, 35, 0.8); */
+  background-color: rgba(255, 99, 71, 0.8);
   bottom: 0px;
   width: 100%;
   transform: scaleX(0);
@@ -43,14 +55,9 @@ div.maxAppContainer {
 .navItem a:hover::before {
   transform: scaleX(1);
   background-color: #1d190e;
-  /* border-bottom: solid 3px #1d190e; */
-  /* width: 100%; */
   left: 0%;
   bottom: 0px;
   transform-origin: bottom left;
-}
-.maxSpacer {
-  height: 70vh;
 }
 .navItemsContainer {
   width: inherit;
@@ -64,15 +71,17 @@ div.maxAppContainer {
   font-family: sans-serif;
   color: #1d190e;
   font-size: 15vw;
-  word-break: break-all;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
   text-align: left;
   line-height: 85%;
   margin-bottom: 10vw;
   letter-spacing: 0.04em;
 }
 .maxNav {
+  padding-top: 75vh;
   color: #1d190e;
-  /* width: 20vw; */
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -80,28 +89,66 @@ div.maxAppContainer {
 .maxMain {
   color: #1d190e;
   padding-left: 3vw;
-  padding-right: 5vw;
-  padding-bottom: 10vw;
+  padding-bottom: 1.1em;
   padding-top: 3vw;
   flex: 4 !important;
   background-color: #fef7ec;
 }
-
+.maxContent {
+  padding-right: 6vw;
+}
 li {
   list-style-type: none;
 }
-.beef {
-  background-color: yellow;
+#willandree {
+  margin-top: 25em;
+  margin-right: 4vw;
+  float: right;
+  background-color: white;
+  padding: 20px 28px;
+  border: solid 1px #1d190e;
+  font-family: "Yatra One";
+  color: tomato;
+  font-size: 0.8em;
 }
-.rawr {
-  display: none;
-  padding: 20px;
-  height: 33px;
-  width: 41px;
+footer#willandree a {
+  color: tomato;
+  display: inline-block;
+  position: relative;
+  transition: all 0.5s;
+  /* margin:20px;
+  height:100%; */
+}
+a#willLink::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  border-bottom: solid 2px rgb(231, 226, 226);
+  bottom: 1px;
+  margin: 0 auto;
+  transition: all 0.4s;
+  left: 0%;
+  width: 100%;
+}
+footer#willandree a:hover::before {
+  border-bottom: solid 2px tomato;
+  width: 100%;
+  left: 0%;
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
 }
 @media screen and (max-width: 700px) {
   .maxNav {
     display: none;
+  }
+  #max {
+    text-align: center;
+  }
+  #rosen {
   }
   .maxMain {
     padding-top: 6vw;
@@ -111,5 +158,21 @@ li {
   .maxHeader {
     font-size: 20vw;
     padding-bottom: 20vw;
+  }
+  .maxMain {
+    padding-right: 6vw;
+  }
+  .maxContent {
+    padding-right: unset;
+  }
+  section p {
+    padding-right: unset;
+  }
+  #willandree {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: unset;
+    font-size: 0.8em;
   }
 }
