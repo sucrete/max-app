@@ -13,8 +13,7 @@ function App() {
           <Header />
           <Content />
           <footer id="willandree">
-            <span>created for</span>
-            <span> the web by </span>
+            <span>site developed by </span>
             <a
               id="willLink"
               href="https://www.linkedin.com/in/william-andree/"

@@ -11,6 +11,8 @@ class Navigator extends Component {
   render() {
     return (
       <nav className="maxNav">
+        <div className="maxName">MAX ROSEN</div>
+        <span className="maxSpacer" />
         <ul className="navItemsContainer">
           <li className="navItem">
             <Link

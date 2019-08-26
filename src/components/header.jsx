@@ -4,13 +4,13 @@ class Header extends Component {
   render() {
     return (
       <header className="maxHeader">
-        <span id="max">MAX</span> {"\n"}
-        <span id="rosen">ROSEN</span>
+        <span id="director">DIRECTOR</span>
         {"\n"}
         <span id="editor">EDITOR</span>
         {"\n"}
-        <span id="director">DIRECTOR</span>
+        <span id="cinematographer">CINEMATOGRAPHER, </span>
         {"\n"}
+        <span id="nyc">based in NYC</span>
       </header>
     );
   }
