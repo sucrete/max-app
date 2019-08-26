@@ -20,7 +20,7 @@ div.maxAppContainer {
   background-color: #fef7ec;
 }
 .maxHeader {
-  font-family: "Pragati Narrow";
+  font-family: "Pragati Narrow", sans-serif;
   font-weight: 700;
   color: #1d190e;
   font-size: 15vw;
@@ -47,16 +47,16 @@ section p {
 }
 section span {
   font-size: 2.5em;
-  font-family: "Archivo Black";
+  font-family: "Pragati Narrow", sans-serif;
 }
 #willandree {
   margin-top: 25em;
   margin-right: 4vw;
   margin-bottom: 0.9em;
-  /* background-color: white; */
+  background-color: #f7f3f0;
   padding: 20px 28px;
-  border: solid 1px tomato;
-  font-family: "Yatra One";
+  border: solid 1px #1d190e;
+  font-family: "Yatra One", sans-serif;
   color: #1d190e;
   font-size: 0.8em;
   float: right;

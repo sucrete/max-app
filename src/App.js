@@ -19,7 +19,7 @@ function App() {
               href="https://www.linkedin.com/in/william-andree/"
               target="_blank"
             >
-              Will Andrée
+              William Andrée
             </a>
           </footer>
         </main>
