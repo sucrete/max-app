@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "149651c8d73f2cb0d1a597d005d1ef83",
+    "revision": "e0ba0c3aba69964d50567eb98bd7fba6",
     "url": "/max-app/index.html"
   },
   {
-    "revision": "1ff2d77951d69979d3a6",
-    "url": "/max-app/static/css/main.0a63f9e4.chunk.css"
+    "revision": "acaa6bab08370d1e432d",
+    "url": "/max-app/static/css/main.fadc51b9.chunk.css"
   },
   {
     "revision": "16930ed93f0e80b056da",
     "url": "/max-app/static/js/2.d7ada286.chunk.js"
   },
   {
-    "revision": "1ff2d77951d69979d3a6",
-    "url": "/max-app/static/js/main.f82f257d.chunk.js"
+    "revision": "acaa6bab08370d1e432d",
+    "url": "/max-app/static/js/main.ff5081c0.chunk.js"
   },
   {
     "revision": "1f21619e51f74b7cc75e",
