@@ -5,7 +5,7 @@ class Content extends Component {
     return (
       <div className="maxContent">
         <section id="section1" className="About">
-          <span>About</span>
+          <span />
           <p>
             O my friend -- but it is too much for my strength -- I sink under
             the weight of the splendour of these visions! A wonderful serenity

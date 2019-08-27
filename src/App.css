@@ -20,14 +20,14 @@ div.maxAppContainer {
   background-color: #fef7ec;
 }
 .maxHeader {
-  font-family: "Pragati Narrow", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 700;
   color: #1d190e;
-  font-size: 15vw;
+  font-size: 12vw;
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
-  line-height: 75%;
+  line-height: 80%;
   margin-bottom: 35vw;
   letter-spacing: 0.01em;
 }
@@ -46,20 +46,24 @@ section p {
   line-height: 125%;
 }
 section span {
-  font-size: 2.5em;
-  font-family: "Pragati Narrow", sans-serif;
+  font-size: 4em;
+  font-family: "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
 }
 #willandree {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   margin-top: 25em;
+  font-weight: 400;
   margin-right: 4vw;
   margin-bottom: 0.9em;
   background-color: #f7f3f0;
   padding: 20px 28px;
   border: solid 1px #1d190e;
-  font-family: "Yatra One", sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #1d190e;
   font-size: 0.8em;
   float: right;
+  text-transform: uppercase;
 }
 footer#willandree a {
   color: #1d190e;
@@ -72,7 +76,7 @@ a#willLink::before {
   display: block;
   position: absolute;
   border-bottom: solid 2px rgb(231, 226, 226);
-  bottom: 1px;
+  bottom: -2px;
   margin: 0 auto;
   transition: all 0.4s;
   left: 0%;
