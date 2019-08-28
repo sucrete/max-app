@@ -4,7 +4,6 @@ import { useInView } from "react-intersection-observer";
 const items = ["DIRECTOR", "EDITOR", "CINEMATOGRAPHER", "BASED IN NYC"];
 const config = { mass: 30, tension: 3000, friction: 750 };
 const Header = () => {
-  const [toggle, set] = useState(true);
   const [ref, inView, entry] = useInView({
     /* Optional options */
     triggerOnce: true,
@@ -12,7 +11,7 @@ const Header = () => {
   });
   const trail = useTrail(items.length, {
     config,
-    x: inView ? 0 : 20,
+    x: inView ? 0 : 200,
     height: inView ? 200 : 0,
     from: { x: 20, height: -1 }
   });
