@@ -45,6 +45,7 @@ section p {
   font-size: 1.3em;
   line-height: 125%;
 }
+/* **** SECTION HEADERS **** */
 section span {
   font-size: 4em;
   font-family: "Helvetica Neue", sans-serif;
@@ -75,7 +76,7 @@ a#willLink::before {
   content: " ";
   display: block;
   position: absolute;
-  border-bottom: solid 2px rgb(231, 226, 226);
+  border-bottom: solid 1px rgb(231, 226, 226);
   bottom: -2px;
   margin: 0 auto;
   transition: all 0.4s;
@@ -83,7 +84,7 @@ a#willLink::before {
   width: 100%;
 }
 footer#willandree a:hover::before {
-  border-bottom: solid 2px rgb(253, 124, 101);
+  border-bottom: solid 1px rgb(143, 140, 139);
   width: 100%;
   left: 0%;
 }

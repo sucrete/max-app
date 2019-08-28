@@ -17,6 +17,7 @@ function App() {
             <a
               id="willLink"
               href="https://www.linkedin.com/in/william-andree/"
+              rel="noopener noreferrer"
               target="_blank"
             >
               William Andrée

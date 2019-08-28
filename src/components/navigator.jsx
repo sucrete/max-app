@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
-import rawr from "../rawr.gif";
+import { Link } from "react-scroll";
 
 class Navigator extends Component {
   constructor(props) {

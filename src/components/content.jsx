@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import NewComponent from "./newcomponent";
 
 class Content extends Component {
   render() {
     return (
       <div className="maxContent">
+        <NewComponent />
         <section id="section1" className="About">
           <span />
           <p>
@@ -65,6 +67,7 @@ class Content extends Component {
             consequat.
           </p>
         </section>
+        {/* <LazyAnimation />s */}
       </div>
     );
   }
