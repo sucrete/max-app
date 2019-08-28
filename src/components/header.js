@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useTrail, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
 const items = ["DIRECTOR", "EDITOR", "CINEMATOGRAPHER", "BASED IN NYC"];
-const config = { mass: 30, tension: 3000, friction: 750 };
+const config = { mass: 10, tension: 3800, friction: 850 };
 const Header = () => {
   const [ref, inView, entry] = useInView({
     /* Optional options */
@@ -12,8 +12,8 @@ const Header = () => {
   const trail = useTrail(items.length, {
     config,
     x: inView ? 0 : 200,
-    height: inView ? 200 : 0,
-    from: { x: 20, height: -1 }
+    height: inView ? 125 : 0,
+    from: { x: 200, height: 0 }
   });
 
   return (
