@@ -5,20 +5,20 @@ div.maxAppContainer {
   width: 100vw !important;
   height: 100%;
   display: flex !important;
-  background-color: #fef7ec;
+  background-color: #fdf1ed;
+  color: #3d200d;
   justify-content: space-between;
 }
 
 /* ===== CONTENT ===== */
 
 .maxMain {
-  color: #1d190e;
   padding-left: 3vw;
   padding-bottom: 1.3em;
   padding-top: 2.6vw;
   flex-shrink: 0;
   flex: 4 !important;
-  background-color: #fef7ec;
+  background-color: #fdf1ed;
 }
 .trails-main {
   margin-left: -1vw;
@@ -43,7 +43,6 @@ div.maxAppContainer {
 .maxHeader {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 700;
-  color: #1d190e;
   font-size: 800%;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -129,14 +128,14 @@ footer#willandree a:hover::before {
   padding-inline-start: 6vw;
 }
 .maxNav {
-  color: #1d190e;
+  /* color: #1d190e; */
   display: flex;
   flex-direction: column;
   flex: 1.25;
 }
 .maxName {
   font-family: "Archivo Black", sans-serif;
-  color: #1d190e;
+  color: #3d200d;
   font-weight: 500 !important;
   font-size: 1.3em;
   letter-spacing: 0.03em;
@@ -151,7 +150,7 @@ footer#willandree a:hover::before {
 }
 .navItem a {
   text-decoration: none;
-  color: #1d190e;
+  /* color: #1d190e; */
   position: relative;
 }
 .navItem a::before {
@@ -172,7 +171,7 @@ footer#willandree a:hover::before {
 }
 .navItem a:hover::before {
   transform: scaleX(1);
-  background-color: #1d190e;
+  background-color: #3d200d;
   left: 0%;
   bottom: 0px;
   transform-origin: bottom left;
