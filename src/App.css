@@ -31,7 +31,7 @@ div.maxAppContainer {
 .trails-text {
   position: relative;
   width: 100%;
-  height: 120px;
+  height: 130px;
   line-height: 120px;
   overflow: hidden;
 }
@@ -42,12 +42,12 @@ div.maxAppContainer {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 700;
   color: #1d190e;
-  font-size: 12vw;
+  font-size: 8em;
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
-  line-height: 80%;
-  margin-bottom: 35vw;
+  line-height: 0.75em;
+  margin-bottom: 10vw;
   letter-spacing: -0.02em;
 }
 .maxContent {
@@ -131,8 +131,8 @@ footer#willandree a:hover::before {
   top: 0;
 }
 .navItem {
-  font-size: 2.5vw;
-  letter-spacing: 0.05em;
+  font-size: 2.2vw;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .navItem a {

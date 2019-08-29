@@ -3,7 +3,7 @@ import { useTrail, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
 
 const items = ["DIRECTOR", "EDITOR", "CINEMATOGRAPHER", "BASED IN NYC"];
-const config = { mass: 10, tension: 3800, friction: 800 };
+const config = { mass: 1, tension: 3500, friction: 750 };
 
 const Header = () => {
   const [ref, inView, entry] = useInView({
@@ -13,6 +13,7 @@ const Header = () => {
   });
   const trail = useTrail(items.length, {
     config,
+    delay: 1000,
     x: inView ? 0 : 200,
     height: inView ? 125 : 0,
     from: { x: 200, height: 0 }
@@ -20,14 +21,6 @@ const Header = () => {
 
   return (
     <header className="maxHeader">
-      <span id="director">DIRECTOR</span>
-      {"\n"}
-      <span id="editor">EDITOR</span>
-      {"\n"}
-      <span id="cinematographer">CINEMATOGRAPHER, </span>
-      {"\n"}
-      <span id="nyc">based in NYC</span>
-      {/* onClick={() => set(state => !state)} */}
       <div ref={ref} className="trails-main">
         <div>
           {trail.map(({ x, height, ...rest }, index) => (
