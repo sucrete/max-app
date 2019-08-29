@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/max-app/static/css/main.21123ca8.chunk.css",
-    "main.js": "/max-app/static/js/main.35527bb9.chunk.js",
-    "main.js.map": "/max-app/static/js/main.35527bb9.chunk.js.map",
+    "main.css": "/max-app/static/css/main.44e23ed3.chunk.css",
+    "main.js": "/max-app/static/js/main.2948f467.chunk.js",
+    "main.js.map": "/max-app/static/js/main.2948f467.chunk.js.map",
     "runtime~main.js": "/max-app/static/js/runtime~main.37789ba3.js",
     "runtime~main.js.map": "/max-app/static/js/runtime~main.37789ba3.js.map",
-    "static/js/2.80dd1234.chunk.js": "/max-app/static/js/2.80dd1234.chunk.js",
-    "static/js/2.80dd1234.chunk.js.map": "/max-app/static/js/2.80dd1234.chunk.js.map",
+    "static/js/2.701dff86.chunk.js": "/max-app/static/js/2.701dff86.chunk.js",
+    "static/js/2.701dff86.chunk.js.map": "/max-app/static/js/2.701dff86.chunk.js.map",
     "index.html": "/max-app/index.html",
-    "precache-manifest.bb8625584ef9f6b6201e4e0559e9fa54.js": "/max-app/precache-manifest.bb8625584ef9f6b6201e4e0559e9fa54.js",
+    "precache-manifest.6d4c138373613815fabbbb737edd6639.js": "/max-app/precache-manifest.6d4c138373613815fabbbb737edd6639.js",
     "service-worker.js": "/max-app/service-worker.js",
-    "static/css/main.21123ca8.chunk.css.map": "/max-app/static/css/main.21123ca8.chunk.css.map"
+    "static/css/main.44e23ed3.chunk.css.map": "/max-app/static/css/main.44e23ed3.chunk.css.map"
   }
 }
