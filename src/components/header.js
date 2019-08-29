@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import { useTrail, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
+
 const items = ["DIRECTOR", "EDITOR", "CINEMATOGRAPHER", "BASED IN NYC"];
-const config = { mass: 10, tension: 3800, friction: 850 };
+const config = { mass: 10, tension: 3800, friction: 800 };
+
 const Header = () => {
   const [ref, inView, entry] = useInView({
     /* Optional options */
     triggerOnce: true,
-    rootMargin: "-100px 0px"
+    rootMargin: "-350px 0px"
   });
   const trail = useTrail(items.length, {
     config,
