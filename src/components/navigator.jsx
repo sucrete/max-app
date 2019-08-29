@@ -12,6 +12,9 @@ class Navigator extends Component {
       <nav className="maxNav">
         <div className="maxName">MAX ROSEN</div>
         <span className="maxSpacer" />
+        <div className="maxLocation">New York,</div> {"\n"}{" "}
+        <div className="maxLocation2">New York</div>
+        <span className="maxSpacer" />
         <ul className="navItemsContainer">
           <li className="navItem">
             <Link

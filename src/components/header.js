@@ -2,21 +2,21 @@ import React, { useState } from "react";
 import { useTrail, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
 
-const items = ["DIRECTOR", "EDITOR", "CINEMATOGRAPHER", "BASED IN NYC"];
+const items = ["DIRECTOR", "EDITOR"];
 const config = { mass: 1, tension: 3500, friction: 750 };
 
 const Header = () => {
   const [ref, inView, entry] = useInView({
     /* Optional options */
     triggerOnce: true,
-    rootMargin: "-350px 0px"
+    rootMargin: "-35px 0px"
   });
   const trail = useTrail(items.length, {
     config,
-    delay: 1000,
-    x: inView ? 0 : 200,
-    height: inView ? 125 : 0,
-    from: { x: 200, height: 0 }
+    delay: 700,
+    x: 0,
+    height: 130,
+    from: { x: 105, height: 0 }
   });
 
   return (
@@ -29,7 +29,7 @@ const Header = () => {
               className="trails-text"
               style={{
                 ...rest,
-                transform: x.interpolate(x => `translate3d(0,${x}px,0)`)
+                transform: x.interpolate(x => `translate3d(0,${x}%,0)`)
               }}
             >
               <animated.div style={{ height }}>{items[index]}</animated.div>
